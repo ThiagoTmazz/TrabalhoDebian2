@@ -2,33 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
-
-// Função 1: Multiplicar cada elemento do vetor por 2
-double* funcao1(double vetor[], int tamanho) {
-    double* resultado = malloc(tamanho * sizeof(double));
-    for (int i = 0; i < tamanho; i++) {
-        resultado[i] = vetor[i] * 2.0;
-    }
-    return resultado;
-}
-
-// Função 2: Calcular o quadrado de cada elemento do vetor
-double* funcao2(double vetor[], int tamanho) {
-    double* resultado = malloc(tamanho * sizeof(double));
-    for (int i = 0; i < tamanho; i++) {
-        resultado[i] = pow(vetor[i], 2.0);
-    }
-    return resultado;
-}
-
-// Função 3: Calcular a raiz quadrada de cada elemento do vetor
-double* funcao3(double vetor[], int tamanho) {
-    double* resultado = malloc(tamanho * sizeof(double));
-    for (int i = 0; i < tamanho; i++) {
-        resultado[i] = sqrt(vetor[i]);
-    }
-    return resultado;
-}
+#include "funcao1.h"
+#include "funcao2.h"
+#include "funcao3.h"
 
 int main() {
     int tamanhovetor;
