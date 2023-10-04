@@ -29,3 +29,8 @@ gcc -o meu_programa main.c -lm
     -o meu_programa: define o nome do arquivo de saída compilado. 
     main.c: é o nome do arquivo de origem que você deseja compilar.
     -lm: essa parte é necessária se usar funções da biblioteca matemática, como a função sqrt.
+
+# Commits
+No commit_parte1 se encontra o arquivo do programa completo sem o uso dos cabeçalhos, onde as funções foram descritas por completos no arquivo main.c
+No commit2 está as mudanças que foram realizadas, no código (inseridos os cabeçalhos e retirados as descrições das funções)
+
